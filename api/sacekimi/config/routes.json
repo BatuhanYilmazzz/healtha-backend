@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sacekimis",
+      "handler": "sacekimi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sacekimis/count",
+      "handler": "sacekimi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sacekimis/:id",
+      "handler": "sacekimi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sacekimis",
+      "handler": "sacekimi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sacekimis/:id",
+      "handler": "sacekimi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sacekimis/:id",
+      "handler": "sacekimi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

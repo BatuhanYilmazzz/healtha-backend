@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/guzellikmerkezis",
+      "handler": "guzellikmerkezi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guzellikmerkezis/count",
+      "handler": "guzellikmerkezi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guzellikmerkezis/:id",
+      "handler": "guzellikmerkezi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/guzellikmerkezis",
+      "handler": "guzellikmerkezi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/guzellikmerkezis/:id",
+      "handler": "guzellikmerkezi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/guzellikmerkezis/:id",
+      "handler": "guzellikmerkezi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

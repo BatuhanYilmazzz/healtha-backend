@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guzellikmerkezis",
+  "info": {
+    "name": "guzellikmerkezi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "model": "language"
+    }
+  }
+}

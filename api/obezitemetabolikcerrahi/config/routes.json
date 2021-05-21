@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/obezitemetabolikcerrahis",
+      "handler": "obezitemetabolikcerrahi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/obezitemetabolikcerrahis/count",
+      "handler": "obezitemetabolikcerrahi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/obezitemetabolikcerrahis/:id",
+      "handler": "obezitemetabolikcerrahi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/obezitemetabolikcerrahis",
+      "handler": "obezitemetabolikcerrahi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/obezitemetabolikcerrahis/:id",
+      "handler": "obezitemetabolikcerrahi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/obezitemetabolikcerrahis/:id",
+      "handler": "obezitemetabolikcerrahi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/agizvedis",
+      "handler": "agizvedis.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agizvedis/count",
+      "handler": "agizvedis.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/agizvedis/:id",
+      "handler": "agizvedis.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/agizvedis",
+      "handler": "agizvedis.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/agizvedis/:id",
+      "handler": "agizvedis.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/agizvedis/:id",
+      "handler": "agizvedis.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

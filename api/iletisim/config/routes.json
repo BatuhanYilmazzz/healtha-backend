@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/iletisims",
+      "handler": "iletisim.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/iletisims/count",
+      "handler": "iletisim.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/iletisims/:id",
+      "handler": "iletisim.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/iletisims",
+      "handler": "iletisim.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/iletisims/:id",
+      "handler": "iletisim.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/iletisims/:id",
+      "handler": "iletisim.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kbbs",
+      "handler": "kbb.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kbbs/count",
+      "handler": "kbb.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kbbs/:id",
+      "handler": "kbb.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kbbs",
+      "handler": "kbb.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kbbs/:id",
+      "handler": "kbb.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kbbs/:id",
+      "handler": "kbb.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

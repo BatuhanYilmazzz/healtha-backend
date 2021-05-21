@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/estetikplastikcerrahis",
+      "handler": "estetikplastikcerrahi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estetikplastikcerrahis/count",
+      "handler": "estetikplastikcerrahi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estetikplastikcerrahis/:id",
+      "handler": "estetikplastikcerrahi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/estetikplastikcerrahis",
+      "handler": "estetikplastikcerrahi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/estetikplastikcerrahis/:id",
+      "handler": "estetikplastikcerrahi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/estetikplastikcerrahis/:id",
+      "handler": "estetikplastikcerrahi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

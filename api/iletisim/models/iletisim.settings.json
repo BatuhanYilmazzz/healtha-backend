@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "iletisims",
+  "info": {
+    "name": "iletisim"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "model": "language"
+    }
+  }
+}

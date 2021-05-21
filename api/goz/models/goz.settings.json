@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gozs",
+  "info": {
+    "name": "goz"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "model": "language"
+    }
+  }
+}

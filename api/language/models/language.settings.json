@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "languages",
+  "info": {
+    "name": "language"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lang": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "lang"
+    }
+  }
+}
