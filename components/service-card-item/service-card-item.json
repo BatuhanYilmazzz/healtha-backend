@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_card_item_service_card_items",
+  "info": {
+    "name": "service_card_item",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "service_title": {
+      "type": "string"
+    },
+    "service_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

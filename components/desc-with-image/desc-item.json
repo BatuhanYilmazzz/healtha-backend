@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_desc_with_image_desc_items",
+  "info": {
+    "name": "desc_item",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "img_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "img_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "topics": {
+      "type": "richtext"
+    },
+    "button_title": {
+      "type": "string"
+    }
+  }
+}

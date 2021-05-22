@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "homepages",
   "info": {
-    "name": "homepage",
+    "name": "anasayfa",
     "description": ""
   },
   "options": {
@@ -12,11 +12,37 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "language": {
       "model": "language"
+    },
+    "header_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "header_title": {
+      "type": "string"
+    },
+    "header_description": {
+      "type": "text"
+    },
+    "turkiye_health_turizm_title": {
+      "type": "string"
+    },
+    "turkiye_health_turizm_desc": {
+      "type": "richtext"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-card-item.service-card-item"
     }
   }
 }

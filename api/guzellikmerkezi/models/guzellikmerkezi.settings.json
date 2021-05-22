@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "guzellikmerkezis",
   "info": {
-    "name": "guzellikmerkezi"
+    "name": "guzellikmerkezi",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,11 +12,28 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "language": {
       "model": "language"
+    },
+    "header_title": {
+      "type": "string"
+    },
+    "header_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "beauty_photos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.image"
     }
   }
 }

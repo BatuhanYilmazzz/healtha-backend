@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_names",
+  "info": {
+    "name": "FormName"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_surname": {
+      "type": "string"
+    },
+    "email_adress": {
+      "type": "string"
+    },
+    "choose_topic": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "send": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "choose_service": {
+      "type": "string"
+    },
+    "healtha_info_user": {
+      "type": "text"
+    },
+    "confirm_appointment": {
+      "type": "string"
+    },
+    "online_appointment": {
+      "type": "string"
+    },
+    "kvkk": {
+      "type": "string"
+    }
+  }
+}
