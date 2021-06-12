@@ -2,7 +2,8 @@
   "collectionName": "components_service_card_item_service_card_items",
   "info": {
     "name": "service_card_item",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -20,6 +21,9 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "navigation": {
+      "type": "string"
     }
   }
 }
