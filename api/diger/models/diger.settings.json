@@ -38,6 +38,9 @@
     },
     "email_adress": {
       "type": "string"
+    },
+    "test": {
+      "type": "string"
     }
   }
 }
