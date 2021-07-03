@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizasyons",
+  "info": {
+    "name": "organizasyon",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_title": {
+      "type": "string"
+    },
+    "header_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "language": {
+      "model": "language"
+    },
+    "motto": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image.image"
+    },
+    "descrption": {
+      "type": "richtext"
+    }
+  }
+}

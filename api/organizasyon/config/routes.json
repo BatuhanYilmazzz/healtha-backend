@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/organizasyons",
+      "handler": "organizasyon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/organizasyons/count",
+      "handler": "organizasyon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/organizasyons/:id",
+      "handler": "organizasyon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/organizasyons",
+      "handler": "organizasyon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/organizasyons/:id",
+      "handler": "organizasyon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/organizasyons/:id",
+      "handler": "organizasyon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
